@@ -21,4 +21,6 @@
 	<project path="vendor/asus" name="P-404-SDM660/proprietary_vendor_asus" remote="github" revision="tokui" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
 	
+	<project path="packages/apps/P-404Doze" name="P-404-SDM660/android_packages_apps_P-404Doze" remote="github" revision="tokui" />
+	
 </manifest>
