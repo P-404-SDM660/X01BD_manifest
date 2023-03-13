@@ -7,10 +7,10 @@
   	<remove-project name="platform/vendor/nxp/opensource/halimpl" />
   	<remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
 	
-	<project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="topaz-SN100X-legacy">
+	<project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="topaz-SN100X-legacy">
           <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
         </project>
-	<project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy"/>
+	<project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="topaz-SN100X-legacy"/>
 	<project path="hardware/qcom/media" name="AOSPA-X01BD/android_hardware_qcom_media" remote="github" revision="topaz-sdm660" />
 	<project path="hardware/qcom/display" name="AOSPA-X01BD/android_hardware_qcom_display" remote="github" revision="topaz-sdm660" />
 	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA-X01BD/android_hardware_qcom_audio" remote="github" revision="topaz-sdm660" />
