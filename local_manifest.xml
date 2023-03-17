@@ -7,6 +7,7 @@
 	<!-- From AOSPA -->
         <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
         <remove-project name="android_vendor_qcom-opensource_display-commonsys" />
+        <remove-project name="android_vendor_qcom-opensource_usb" />
         <project path="vendor/qcom/opensource/commonsys/display" name="AOSPA/android_vendor_qcom-opensource_display-commonsys" remote="github" revision="topaz">
           <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
         </project>
@@ -14,6 +15,7 @@
 	  <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
           <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
   	</project>
+        <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="github" revision="topaz" />
 
 	<!-- Hals -->
 	<project path="hardware/qcom/media" name="AOSPA-X01BD/android_hardware_qcom_media" remote="github" revision="topaz-sdm660" />
